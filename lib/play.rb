@@ -36,3 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+# play: plays a game of tic-tac-toe for 9 turns
+# => board - board to start the game with
+def play(board)
+  9.times do
+    turn(board)
+  end
+end
